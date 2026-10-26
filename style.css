@@ -204,10 +204,6 @@ mark.dc{background:#f1dc9a;color:#241c06;padding:.05em .4em;font-size:.82em;font
 .pan{max-width:760px;margin:0 auto;padding:30px var(--gutter) 130px}
 .pan h1{font-size:clamp(2.2rem,9vw,3.2rem);margin-bottom:10px}
 .p-avviso{border:1px dashed #9a7a1c;color:#e6d9ae;padding:10px 14px;font-size:.88rem;margin:16px 0 18px}
-.p-guida{display:grid;gap:8px;margin:0 0 20px;padding:0;counter-reset:g;list-style:none;font-size:.95rem;color:var(--muto)}
-.p-guida li{display:flex;gap:12px;align-items:flex-start;counter-increment:g}
-.p-guida li::before{content:counter(g);flex:none;width:26px;height:26px;display:grid;place-items:center;border:1px solid var(--oro);color:var(--oro);font-size:.8rem;margin-top:1px}
-.p-guida b{color:var(--crema);font-weight:500}
 .p-stato{display:flex;align-items:center;gap:10px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muto);margin-bottom:8px}
 .p-stato b{color:var(--oro-2);font-weight:500}
 .p-cat{border-top:1px solid var(--linea)}
