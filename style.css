@@ -71,7 +71,7 @@ mark.dc{background:#f1dc9a;color:#241c06;padding:.05em .4em;font-size:.82em;font
 /* Hero */
 .hero{position:relative;padding:0 0 56px}
 .hero-foto{position:relative;margin:0 calc(var(--gutter)*-1)}
-.hero-foto img{width:100%;aspect-ratio:4/4.3;object-fit:cover;object-position:50% 40%}
+.hero-foto img{width:100%;aspect-ratio:4/4.3;object-fit:cover;object-position:50% 35%}
 .hero-foto::after{content:"";position:absolute;inset:auto 0 0 0;height:55%;background:linear-gradient(180deg,rgba(11,13,12,0),var(--nero) 96%)}
 .hero-testo{position:relative;z-index:1;margin-top:-84px}
 .hero h1{font-size:clamp(2.7rem,12vw,4.6rem);margin-bottom:18px}
